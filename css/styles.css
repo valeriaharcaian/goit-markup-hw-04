@@ -404,6 +404,7 @@ img {
   line-height: 1.11;
   color: var(--logo-titles-color);
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .customers-list {
