@@ -86,8 +86,11 @@ img {
 
 .flex-header {
   border-bottom: 1px solid #e7e9fc;
+}
+
+.box-shadow {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08, green, blue, alpha),
-    0px 1px rgba(46, 47, 66, 0.16, green, blue, alpha),
+    0px 1px 1px rgba(46, 47, 66, 0.16, green, blue, alpha),
     0px 1px 6px rgba(46, 47, 66, 0.08, green, blue, alpha);
 }
 
@@ -238,6 +241,16 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.icon-div-section-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 /*section 3*/
