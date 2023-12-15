@@ -403,7 +403,7 @@ img {
   height: 88px;
 }
 
-.client-one-link {
+.client-link {
   width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
@@ -414,12 +414,12 @@ img {
   color: var(--light-slate);
 }
 
-.client-one-link:hover {
+.client-link:hover {
   border-color: #404bbf;
   color: #404bbf;
 }
 
-.client-one-link:focus {
+.client-link:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
