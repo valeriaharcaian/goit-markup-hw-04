@@ -352,20 +352,23 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-right: 40px;
+  list-style-type: none;
 }
 
-.instagram {
+.insta-tweet-fb-li {
   width: 40px;
   height: 40px;
 }
 
-.instagram-link {
+.social-media-link {
   width: 100%;
   height: 100%;
   background-color: var(--logo-blue-color);
   border-radius: 50%;
   display: flex;
   align-items: center;
+  padding-left: 12px;
 }
 
 .instagram-link:hover {
@@ -397,6 +400,7 @@ img {
 .customers-list {
   display: flex;
   gap: 24px;
+  list-style-type: none;
 }
 
 .client-one {
