@@ -389,6 +389,14 @@ img {
 .customers-section {
   padding-top: 120px;
   padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.customers-container {
+  align-items: center;
 }
 
 .customers-title {
@@ -402,11 +410,13 @@ img {
   display: flex;
   gap: 24px;
   list-style-type: none;
+  padding: 0;
 }
 
 .client-one {
-  width: calc((100% - 120px) / 6);
+  width: calc(100% - 120px) / 6;
   height: 88px;
+  width: 168px;
 }
 
 .client-link {
