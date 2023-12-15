@@ -367,7 +367,10 @@ img {
   align-items: center;
 }
 
-.instagram-link:hover,
+.instagram-link:hover {
+  background-color: #404bbf;
+}
+
 .instagram-link:focus {
   background-color: #404bbf;
 }
