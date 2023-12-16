@@ -397,8 +397,10 @@ img {
   font-size: 36px;
   line-height: 1.11;
   color: var(--logo-titles-color);
-  margin-bottom: 72px;
   text-align: center;
+  font-style: normal;
+  margin-bottom: 72px;
+  text-transform: capitalize;
 }
 
 .customers-list {
