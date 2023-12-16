@@ -378,25 +378,6 @@ img {
   fill: var(--light-color);
 }
 
-.social-media-link-footer {
-  width: 100%;
-  height: 100%;
-  background-color: var(--logo-blue-color);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.social-media-link-footer,
-.social-media-link-footer {
-  background-color: #31d0aa;
-}
-
-.svg-icon-footer {
-  fill: var(--light-color);
-}
-
 /*section 5*/
 
 .customers-section {
@@ -522,6 +503,21 @@ img {
 .insta-tweet-fb-li-footer {
   width: 40px;
   height: 40px;
+}
+
+.footer-link-sm {
+  width: 100%;
+  height: 100%;
+  background-color: var(--logo-blue-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link-sm:hover,
+.footer-link-sm:focus {
+  background-color: #31d0aa;
 }
 
 /*PORTFOLIO main section*/
