@@ -520,6 +520,10 @@ img {
   background-color: #31d0aa;
 }
 
+.svg-icon-footer {
+  fill: var(--light-color);
+}
+
 /*PORTFOLIO main section*/
 
 /*buttons section*/
