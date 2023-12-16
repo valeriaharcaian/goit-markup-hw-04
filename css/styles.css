@@ -450,7 +450,6 @@ img {
   letter-spacing: 0.32px;
   color: var(--logo-blue-color);
   background-color: var(--logo-titles-color);
-  text-transform: lowercase;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -460,6 +459,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+
+.index:first {
+  text-transform: uppercase;
 }
 
 .span-class-f {
@@ -475,7 +478,6 @@ img {
 .social-m-footer {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
   letter-spacing: 0.02em;
   color: var(--background-page-color);
   margin-bottom: 16px;
@@ -492,6 +494,11 @@ img {
   letter-spacing: 0.02em;
   color: var(--background-page-color);
   margin-bottom: 16px;
+  margin-left: 40px;
+}
+
+.s-m-pharagraph::first-letter {
+  text-transform: uppercase;
 }
 
 .s-m-list {
