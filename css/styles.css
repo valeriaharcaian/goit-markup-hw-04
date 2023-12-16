@@ -381,7 +381,10 @@ img {
   flex-shrink: 0;
 }
 
-.social-media-link:hover,
+.social-media-link:hover {
+  background-color: #404bbf;
+}
+
 .social-media-link:focus {
   background-color: #404bbf;
 }
@@ -409,7 +412,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   color: var(--logo-titles-color);
-  margin-bottom: 72px;
+  padding: 72px;
   align-items: center;
 }
 
