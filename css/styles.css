@@ -374,10 +374,6 @@ img {
   background-color: #404bbf;
 }
 
-.social-media-link:focus {
-  background-color: #404bbf;
-}
-
 .svg-social {
   fill: var(--light-color);
 }
