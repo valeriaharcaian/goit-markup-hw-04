@@ -429,6 +429,7 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--light-slate);
+  align-items: center;
 }
 
 .client-link:hover {
