@@ -412,7 +412,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   color: var(--logo-titles-color);
-  padding: 72px;
+  margin-bottom: 72px;
   align-items: center;
 }
 
