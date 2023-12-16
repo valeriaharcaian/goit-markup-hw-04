@@ -84,14 +84,12 @@ img {
   padding: 0;
 }
 
-.flex-header {
-  border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08, green, blue, alpha),
-    0px 1px 1px rgba(46, 47, 66, 0.16, green, blue, alpha),
-    0px 1px 6px rgba(46, 47, 66, 0.08, green, blue, alpha);
-}
-
-.box-shadow {
+.header-box-shadow {
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -368,7 +366,7 @@ img {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  align-items: center;
+  justify-content: center;
   padding-left: 12px;
 }
 
