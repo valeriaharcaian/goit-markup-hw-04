@@ -393,11 +393,12 @@ img {
 /*section 5*/
 
 .customers-section {
-  padding-top: 120px;
+  padding-top: 48px;
   padding-bottom: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .customers-container {
