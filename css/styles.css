@@ -381,10 +381,7 @@ img {
   flex-shrink: 0;
 }
 
-.social-media-link:hover {
-  background-color: #404bbf;
-}
-
+.social-media-link:hover,
 .social-media-link:focus {
   background-color: #404bbf;
 }
@@ -406,7 +403,6 @@ img {
 
 .customers-container {
   align-items: center;
-  margin-bottom: 72px;
 }
 
 .customers-title {
