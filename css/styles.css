@@ -25,7 +25,7 @@ h2 {
 }
 
 p {
-  margin: 0;
+  margin-bottom: 16px;
 }
 
 img {
@@ -483,7 +483,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-bottom: 16px;
 }
 
 .index:first {
@@ -519,11 +518,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--background-page-color);
   margin-left: 40px;
-  margin-bottom: 16px;
-}
-
-p {
-  margin: 0;
 }
 
 .s-m-pharagraph::first-letter {
