@@ -381,8 +381,8 @@ img {
   flex-shrink: 0;
 }
 
-.social-media-link:focus,
-.social-media-link:hover {
+.social-media-link:hover,
+.social-media-link:focus {
   background-color: #404bbf;
 }
 
@@ -410,9 +410,6 @@ img {
   line-height: 1.11;
   color: var(--logo-titles-color);
   align-items: center;
-}
-
-.customers-title {
   margin-bottom: 72px;
 }
 
@@ -509,7 +506,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--background-page-color);
   margin-left: 40px;
-  margin-bottom: 16px;
+  margin-bottom: 1em;
 }
 
 .s-m-pharagraph::first-letter {
