@@ -18,9 +18,15 @@
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--background-page-color);
+  width: 1440px;
+  height: 3200px;
 }
 
 h2 {
+  margin: 0;
+}
+
+p {
   margin: 0;
 }
 
