@@ -33,7 +33,6 @@ img {
   padding-right: 15px;
   width: 1158px;
   margin: 0 auto;
-  align-content: center;
 }
 
 .logo {
@@ -99,10 +98,6 @@ img {
 
 .header-container {
   display: flex;
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
   justify-content: space-between;
 }
 
